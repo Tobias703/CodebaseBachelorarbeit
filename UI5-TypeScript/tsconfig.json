@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "none",
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "allowJs": true,
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "sourceMap": true,
+        "noEmit": true,
+        "rootDir": "./webapp",
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "paths": {
+            "ui5/typescript/*": ["./webapp/*"]
+        },
+        "composite": true
+    },
+    "include": ["./webapp/**/*"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ui5.typescript",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Tobias Seiffert",
+  "description": "UI5-App using TypeScript",
+  "scripts": {
+    "start": "ui5 serve -o index.html",
+    "build": "ui5 build"
+  },
+  "devDependencies": {
+    "@types/openui5": "1.116.1",
+    "@ui5/cli": "^3.4.0",
+    "typescript": "^5.1.6",
+    "ui5-middleware-livereload": "^3.0.0",
+    "ui5-middleware-simpleproxy": "^3.0.0",
+    "ui5-tooling-transpile": "^3.0.1"
+  }
+}
